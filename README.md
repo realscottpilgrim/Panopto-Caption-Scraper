@@ -6,8 +6,6 @@ Scrapes captions from recorded lectures on Panopto which can then be copied and 
 
 Extensions installed as unpacked aren't updated automatically. To update the extension you should download it and install as unpacked again.
 
-Unpacked extensions are installed as separate instances, so if you have Web Scrobbled instaled from Chrome Web Store, you should disable it.
-
 ### Download the extension
 
 [Download](https://github.com/BenDarwent/Panopto-Caption-Scraper/archive/main.zip) and unzip the extension to a location on your computer.
@@ -38,3 +36,6 @@ This extension is a work in progress and new features will be added whenever pos
 * Automatic copy to clipboard
 * Better formatting, reducing unnecessary linebreaks
 * Download captions with timestamps
+
+###Acknowledgments
+Many thanks to [Web Scrobbler](https://github.com/web-scrobbler/web-scrobbler/wiki/Install-an-unpacked-extension] for the guide on installing unpacked extensions)
