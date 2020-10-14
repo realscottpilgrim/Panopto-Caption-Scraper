@@ -16,13 +16,12 @@ chrome.runtime.onMessage.addListener(function (jsonArray) {
 });
 
 
-var captions = document.getElementById("pagetitle").value;
 
 function saveTextAsFile()
 {
     //inputTextToSave--> the text area from which the text to save is
     //taken from
-    var textToSave = captions;
+    var textToSave = captionText;
     var textToSaveAsBlob = new Blob([textToSave], {type:"text/plain"}); //google chrome not enjoying this
     var textToSaveAsURL = window.URL.createObjectURL(textToSaveAsBlob);
     var fileNameToSaveAs = "PCS.txt"; 
@@ -44,7 +43,7 @@ function destroyClickedElement(event)
 }
 
 function copyTextToClipboard(){
-    var copyText = captions;
+    var copyText = captionText;
     copytext.select();
     document.execCommand("copy");
     alert("Copied to clipboard)");
