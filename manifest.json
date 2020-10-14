@@ -1,0 +1,23 @@
+{
+	"manifest_version": 2,
+
+	"name": "Panopto Captions",
+	"description": "Get captions from recorded Panopto lectures",
+	"version": "0.1",
+	"author": "Ben Darwent",
+
+	"background": {
+		"scripts": ["popup.js"],
+		"persistent": true
+	},
+
+	"permissions": [
+        "tabs",
+        "http://*/",
+        "https://*/"
+    ],
+	"browser_action": {
+		"default_icon": "logo.png",
+		"default_popup": "popup.html"
+	}
+}
