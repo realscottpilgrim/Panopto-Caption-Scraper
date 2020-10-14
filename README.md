@@ -37,5 +37,5 @@ This extension is a work in progress and new features will be added whenever pos
 * Better formatting, reducing unnecessary linebreaks
 * Download captions with timestamps
 
-###Acknowledgments
-Many thanks to [Web Scrobbler](https://github.com/web-scrobbler/web-scrobbler/wiki/Install-an-unpacked-extension] for the guide on installing unpacked extensions)
+##Acknowledgments
+Many thanks to [Web Scrobbler](https://github.com/web-scrobbler/web-scrobbler/wiki/Install-an-unpacked-extension) for the guide on installing unpacked extensions.
